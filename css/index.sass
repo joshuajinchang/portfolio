@@ -1,0 +1,57 @@
+@import "vars.sass"
+@import "flex.sass"
+@mixin clearfix
+    &:after
+        content: " "
+        display: table
+        clear: both
+
+html
+    background: url(../img/bg.png) no-repeat center center fixed
+
+// -- HEADER & NAV--//
+@import "navigation.sass"
+
+//  -- CONTENT -- //
+.content
+  width: 900px
+  margin: auto
+  display: block
+
+
+#design, #projects, #artwork
+    display: flex
+    flex-direction: column
+    .sectionTitle
+        text-decoration: underline
+        color: darkgrey
+        text-align: center
+        text-transform: uppercase
+        margin:  10px auto
+    h2
+        padding: 10px 0
+
+//--PROJECTS --//
+@import "projects.sass"
+
+//--MODAL--//
+@import "modal.sass"
+
+//--DESIGN & ILLUSTRATION --//
+@import "design.sass"
+
+//--ARTWORK --//
+@import "artwork.sass"
+
+//--FOOTER --//
+.socialMedia
+    list-style-type: none
+    display: flex
+    width: 500px
+    margin: 40px auto
+    justify-content: space-around
+    align-items: center
+    img
+        max-width: 100px
+.copyright
+    text-align: center

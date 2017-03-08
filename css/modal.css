@@ -1,0 +1,22 @@
+.modal {
+  max-width: 800px;
+  background-color: white;
+  padding: 30px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.4); }
+  .modal #proj-1 .close-btn {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    background: yellow;
+    font-size: 30px; }
+  .modal #proj-1 .text-box .lead {
+    font-size: 30px;
+    color: black;
+    text-transform: uppercase; }
+  .modal #proj-1 .text-box .tag {
+    font-size: 13px;
+    color: darkgrey;
+    text-transform: lowercase; }
+  .modal #proj-1 .text-box .description {
+    font-size: 16px;
+    color: black; }

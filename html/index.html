@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>JC Portfolio Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="icon" type="image/png" href="../img/Favicon.png" />
+</head>
+<body>
+  <header>
+    <div class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <div class="navbar-brand" id="logo">
+            <a href="#"><img src="../img/jclogo.png" alt="JC Logo"/></a>
+            <h1>Joshua Jin Soo Chang</h1>
+          </div>
+          <button type="button" data-toggle="collapse" data-target=".navbar-collapse" class="navbar-toggle">
+            <span class="sr-only"> Toggle Navigation </span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <ul class="nav navbar-nav navbar-right navbar-collapse collapse dropdown">
+          <li><a href="#" data-toggle="dropdown">Portfolio<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#projects"> Projects</a></li>
+              <li class="divider"></li>
+              <li><a href="#design"> Design</a></li>
+              <li class="divider"></li>
+              <li><a href="#artwork"> Artwork</a></li>
+            </ul>
+          </li>
+          <li><a href="#" data-toggle="dropdown">Blog <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="process.html">Process Flow</a></li>
+              <li class="divider"></li>
+              <li><a href="journal.html">Photo Journal</a></li>
+            </ul>
+          </li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <div class="content ">
+    <div id="projects">
+        <div class="sectionTitle col-xs-offset-1 col-xs-10 col-sm-5">
+            <h2>Projects</h2>
+        </div>
+        <div class="sectionContent col-xs-12">
+            <div class="project col-xs-10 col-md-4" id="proj-1">
+                <div class="img">
+                    <img src="http://placehold.it/350x350" alt="placeholder image">
+                </div>
+                <div class="info">
+                    <div class="projectTitle">
+                        <h3> Website Development</h3>
+                    </div>
+                    <div class="tags">
+                        <p><b>Tags:</b> #html, #css, #wireframe, #sass #flexbox, #javascript, #process</p>
+                    </div>
+                    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#websiteModal">Learn More</button>
+                </div>
+
+                <!-- MODAL -->
+                <div class="modal fade" id="websiteModal" role="dialog">
+                <div class="modal-dialog">
+
+                    <!--MODAL CONTENT-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h3 class="modal-title"> Website Development</h3>
+                        </div>
+
+                        <div class="modal-body">
+                            <div class="graphics-modal">
+                                <div class="primary">
+                                    <img src="http://placehold.it/500x500" alt="placehold modal image">
+                                </div>
+                                <div class="secondary">
+                                    <img src="http://placehold.it/125x125" alt="placehold modal image" class="secondary">
+                                    <img src="http://placehold.it/125x125" alt="placehold modal image" class="secondary">
+                                    <img src="http://placehold.it/125x125" alt="placehold modal image" class="secondary">
+                                </div>
+                            </div>
+                            <div class="info-modal">
+                                <p class="tags"><b>Tags:</b> #html, #css, #wireframe, #sass #flexbox, #javascript, #process</p>
+                                <p class="description">
+                                    <b>Description:</b>
+                                    <br>This was my process of developing the website you're on now.  This is just the most recent iteration and will be updated as I change the layout of the site. Enjoy.
+                                </p>
+                            </div>
+                        </div>
+                    </div> <!-- End of Modal -->
+                </div>
+            </div>
+            </div> <!-- End of Project 1 -->
+
+
+
+            <div class="project col-xs-10 col-md-4" id="proj-2">
+                <div class="img">
+                    <img src="http://placehold.it/350x350" alt="placeholder image">
+                </div>
+
+                <div class="info">
+                    <div class="projectTitle">
+                        <h3> Wireframe & User Flow Toolkit </h3>
+                    </div>
+                    <div class="tags">
+                        <p><b>Tags:</b> #wireframe, #userflow, #process</p>
+                    </div>
+                    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#wireframeModal">Learn More</button>
+                </div>
+            </div>
+            <!-- MODAL -->
+            <div class="modal fade" id="wireframeModal" role="dialog">
+                <div class="modal-dialog">
+
+                    <!--MODAL CONTENT-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h3 class="modal-title"> Wireframe & Userflow Kit</h3>
+                        </div>
+
+                        <div class="modal-body">
+                            <div class="graphics-modal">
+                                <img src="http://placehold.it/500x300" alt="placehold modal image">
+                            </div>
+                            <div class="info-modal">
+                                <p class="tags"><b>Tags:</b> #wireframe, #userflow, #process</p>
+                                <p class="description"> <b>Description:</b><br>
+                                    This goes through the process of creating the social media icons into SVG files that woud make my life a lot more streamlined in development. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project col-xs-10 col-md-4" id="proj-3">
+                <div class="img">
+                    <img src="http://placehold.it/350x350" alt="placeholder image">
+                </div>
+
+                <div class="info">
+                    <div class="projectTitle">
+                        <h3> Social Media Icons SVG</h3>
+                    </div>
+                    <div class="tags">
+                        <p><b>Tags:</b> #socialmedia, #svg, #icons, #process</p>
+                    </div>
+                    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#SMiconsModal">Learn More</button>
+                </div>
+            </div>
+
+            <!-- MODAL -->
+            <div class="modal fade" id="SMiconsModal" role="dialog">
+                <div class="modal-dialog">
+
+                    <!--MODAL CONTENT-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h3 class="modal-title"> Wireframe & Userflow Kit</h3>
+                        </div>
+
+                        <div class="modal-body">
+                            <div class="graphics-modal">
+                                <img src="http://placehold.it/500x300" alt="placehold modal image">
+                            </div>
+                            <div class="info-modal">
+                                <p class="tags"><b>Tags:</b>  #socialmedia, #svg, #icons, #process</p>
+                                <p class="description"> <b>Description:</b><br>
+                                    This goes through the process of creating the social media icons into SVG files that woud make my life a lot more streamlined in development. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div> <!-- End of class=sectionContent -->
+    </div> <!-- End of id=projects -->
+
+
+    <div id="design">
+        <div class="sectionTitle col-xs-offset-1 col-xs-10 col-md-5">
+            <h2>Design</h2>
+        </div>
+        <div class="designContent">
+            <div class="designGraphic">
+                <img src="../img/process.png" alt="The Process Image">
+            </div>
+            <div class="designInfo">
+                <h3><b>My Design Process</b></h3>
+                <p><b>Step 1:</b> Problem Arises</p>
+                <p><b>Step 2:</b> Brain Storm Ideas & Research</p>
+                <p><b>Step 3:</b> Sketch & Design & Wireframe</p>
+                <p><b>Step 4:</b> Code and Develop</p>
+                <p><b>Step 5:</b> Iterate (Go Back to Step 2)</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="artwork">
+        <div class="sectionTitle col-xs-offset-1 col-xs-10 col-md-5">
+            <h2>Artwork</h2>
+
+        </div>
+        <div class="artworkContent">
+
+        </div>
+    </div>
+</div> <!-- End of class="CONTENT"-->
+
+
+
+
+
+
+<div class="footer">
+    <div class="socialNav">
+    <ul class="socialMedia">
+    <li id="sm-linkedin"><a href="https://www.linkedin.com/in/joshuajinchang">
+    <img src="../img/linkedin.png" alt="LinkedIn Account"></a></li>
+    <li id="sm-instagram"><a href="https://www.instagram.com/joshuajinchang">
+    <img src="../img/instagram.png" alt="Instagram Account"></a></li>
+    <li id="sm-codepen"><a href="http://codepen.io/joshuajinchang">
+    <img src="../img/codepen.png" alt="Codepen Account"></a></li>
+    <li id="sm-dribbble"><a href="https://dribbble.com/joshuajinchang">
+    <img src="../img/dribbble.png" alt="Dribbble Account"></a></li>
+    </ul>
+    </div>
+    <div class="copyright">
+        <p> Coded and Designed by JC Designs</p>
+        <p>	&copy; Joshua Jin Soo Chang </p>
+    </div>
+</div>
+
+  <script src="../javascript/jquery-3.1.1.slim.min.js"></script>
+  <script src="../javascript/bootstrap.min.js"></script>
+  <script src="../javascript/main.js">,</script>
+</body>
+</html>
